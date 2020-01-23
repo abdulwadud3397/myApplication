@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation"
+        />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:contentDescription="@string/nav_header_desc"-->
+<!--        android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+<!--        app:srcCompat="@drawable/pic03064" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageVie"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:contentDescription="@string/nav_header_desc"-->
+<!--        android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+<!--        app:srcCompat="@drawable/pic03064"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/imageView"/>-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageVi"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:contentDescription="@string/nav_header_desc"-->
+<!--        android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+<!--        app:srcCompat="@drawable/pic03064"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView"/>-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageV"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:contentDescription="@string/nav_header_desc"-->
+<!--        android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+<!--        app:srcCompat="@drawable/pic03064"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageVi"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

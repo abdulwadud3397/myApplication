@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sellbacground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Owner Name:"-->
+<!--                android:padding="5dip"-->
+<!--                android:gravity="center"/>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/Owner_name"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dip"-->
+<!--                android:gravity="center"/>-->
+<!--        </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Brand Name"
+            android:padding="5dip"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+        <EditText
+            android:id="@+id/products_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter brand name"
+            android:gravity="center"
+            android:tooltipText="enter brand name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/products_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter brand type"
+            android:gravity="center"
+            android:tooltipText="enter type name_sold/purchase"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/products_Color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter brand color"
+            android:gravity="center"
+            android:tooltipText="enter brand color"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:padding="5dip"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:hint="Enter quantity"
+            android:id="@+id/products_qty"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Email:"-->
+<!--                android:padding="5dip"-->
+<!--                android:gravity="center"/>-->
+<!--            <EditText-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dip"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/products_email"-->
+<!--                android:tooltipText="Enter your email"-->
+<!--                android:hint="Enter your email" />-->
+<!--        </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:hint="Enter byke price"
+            android:id="@+id/products_price"
+            android:gravity="center"/>
+    </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Address"-->
+<!--                android:padding="5dip"-->
+<!--                android:gravity="center"/>-->
+<!--            <EditText-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dip"-->
+<!--                android:id="@+id/products_address"/>-->
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Chesis Number"-->
+<!--            android:padding="1dp"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dip"-->
+<!--            android:hint="Enter chesis number"-->
+<!--            android:id="@+id/Products_chesisNumber"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:padding="1dp"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:hint="Enter date"
+            android:id="@+id/products_date"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Seller/perchaser name"-->
+<!--            android:padding="1dp"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dip"-->
+<!--            android:hint="Enter chesis number"-->
+<!--            android:id="@+id/Products_seller_name"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dip" >
+            <Button
+                android:id="@+id/btn_SellSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorSuccess"/>
+            <Button
+                android:id="@+id/reset_sell_Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/btn_SellSubmit"
+                android:text="Reset" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </ScrollView>

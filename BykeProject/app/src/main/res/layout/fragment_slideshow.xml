@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sellbacground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sellbacground">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Customer Name:"
+            android:padding="5dip"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/booking_Cust_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:hint="Enter customer name"
+            android:tooltipText="Enter customer name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:hint="Enter your email"
+            android:tooltipText="Enter your email"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Brand Name"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_brandname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enput Brand name"
+            android:tooltipText="R15/Fzs/saloto"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/bookig_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enput color name"
+            android:tooltipText="Black/red/Blue"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:hint="Enput version name"
+            android:tooltipText="thailand/indo/indian"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Destination:"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_destination"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:hint="Enter your destination"
+            android:tooltipText="Enter your destination"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Picked date"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter picked date"
+            android:tooltipText="Enter picked date"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Picked location"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_picked_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter picked location"
+            android:tooltipText="Enter picked location"
+            android:gravity="center"/>
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Pay amount"-->
+<!--            android:padding="5dip"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/booking_Pay"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Enput price"-->
+<!--            android:tooltipText="Must be 50,000/="-->
+<!--            android:gravity="center"/>-->
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:padding="5dip"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/booking_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:hint="Enter your phone number"
+            android:tooltipText="Enter your phone number"/>
+    </LinearLayout>
+
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Quantity"-->
+<!--            android:padding="5dip"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/booking_qty"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dip"-->
+<!--            android:hint="Enter quantity"-->
+<!--            android:gravity="center" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Price"-->
+<!--            android:padding="5dip"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dip"-->
+<!--            android:hint="Enter byke price"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Date"-->
+<!--            android:padding="1dp"-->
+<!--            android:gravity="center"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/booking_date"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dip"-->
+<!--            android:hint="Enter booking date"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dip"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_bookingSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/colorSuccess"/>
+        <Button
+            android:id="@+id/booking_btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_bookingSubmit"
+            android:text="Reset" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

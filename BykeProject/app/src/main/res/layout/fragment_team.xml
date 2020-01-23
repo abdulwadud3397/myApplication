@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sellbacground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sellbacground">
+    <TextView
+        android:id="@+id/text_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="All Member point Information"
+        android:textSize="25dp"
+        android:padding="20dp" />
+
+
+
+
+<!--    //new-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+<!--        <TextView-->
+<!--            android:textSize="20sp"-->
+<!--            android:text="Seller Name"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:textColor="#000"/>-->
+<!--        <TextView-->
+<!--            android:textSize="20sp"-->
+<!--            android:text="Quantity"-->
+<!--            android:gravity="left"-->
+<!--            android:textColor="#000"-->
+<!--            android:paddingLeft="20dp"/>-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Monthly"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#000"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="20sp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="25dp" />&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:text="Point"-->
+<!--            android:gravity="left"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#000"-->
+<!--            android:paddingLeft="25dp" />-->
+
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+<!--        <TextView-->
+<!--            android:textColor="#000"-->
+<!--            android:background="#91F229  "-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="৮৯৮৬৩"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingLeft="10dp" />-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#000"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="#D6F9B3 "&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="16sp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="৮৯৮৬৩"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="20dp" />&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:textColor="#000"-->
+<!--            android:background="#6CDC96"-->
+<!--            android:textSize="16sp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="৮৯৮৬৩"-->
+<!--            android:paddingLeft="25dp" />-->
+<!--        <TextView-->
+<!--            android:background="#DA5067 "-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="৪.৫৪"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#fff"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            />-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="#ffea00"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#000"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="16sp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="২১৩৮"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="left"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="5dp" />&ndash;&gt;-->
+<!--    </TableRow>-->
+
+    <TableLayout
+        android:id="@+id/tableview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        />
+</TableLayout>
+</ScrollView>

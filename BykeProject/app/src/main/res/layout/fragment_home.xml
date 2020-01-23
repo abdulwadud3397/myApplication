@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginStart="50dp"
+        android:layout_width="170dp"
+        android:layout_height="175dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/pic03064" />
+    <ImageView
+        android:id="@+id/imageVie"
+        android:layout_marginStart="50dp"
+        android:layout_width="170dp"
+        android:layout_height="175dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/fz25"
+        app:layout_constraintLeft_toRightOf="@+id/imageView"/>
+
+    <ImageView
+        android:id="@+id/imageVi"
+        android:layout_marginStart="50dp"
+        android:layout_width="370dp"
+        android:layout_height="175dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/fzs"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_marginStart="50dp"
+        android:layout_width="370dp"
+        android:layout_height="275dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/r154"
+        app:layout_constraintTop_toBottomOf="@+id/imageVi"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

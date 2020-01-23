@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BykeProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Byke Showroom</string>
+    <string name="nav_header_subtitle">abdulwadud3397@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_item_details">ItemDetails</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Sell/Purchase</string>
+    <string name="menu_slideshow">Booking</string>
+    <string name="menu_tools">Package</string>
+    <string name="menu_team">Team Member</string>
+    <string name="menu_services">Service</string>
+    <string name="menu_insurance">Insurance</string>
+    <string name="menu_share">ShareIt</string>
+    <string name="menu_send">Log Out</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="color_name_array">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="brand_name_array">
+        <item>R15-V3</item>
+        <item>FZS-V3</item>
+        <item>FZS-V2</item>
+        <item>Frazer</item>
+        <item>Saloto</item>
+    </string-array>
+    <string-array name="type_name_array">
+        <item>select one</item>
+        <item>sold</item>
+        <item>purchased</item>
+    </string-array>
+    <string-array name="pay_name_array">
+        <item>select one</item>
+        <item>card</item>
+        <item>cash</item>
+    </string-array>
+    <string-array name="company_name_array">
+        <item>select one</item>
+        <item>Dutch Bangla Bank</item>
+        <item>Brack Brank</item>
+        <item>IFC Brank</item>
+    </string-array>
+    <string-array name="insurance_name_array">
+        <item>select one</item>
+        <item>Byke</item>
+        <item>Car</item>
+        <item>Bus</item>
+    </string-array>
+    <string-array name="service_name_array">
+        <item>select one</item>
+        <item>Free service</item>
+        <item>Without Free service</item>
+
+    </string-array>
+</resources>
